@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//use malloc
-//input is file in arg- matrix
-//
+
 void multmatrix(int **a, int **b, int **result, int size) {
     for (int i = 0; i < size; i++) {
         for (int j = 0; j < size; j++) {
